@@ -1,0 +1,6 @@
+Transaction ID,Date,Description,Type,Amount (INR),Status
+TXN1029,2026-05-20,Credited interest - FD MAT,Credit,45000,Completed
+TXN1028,2026-05-18,Tata Power Electricity Bill,Debit,2450,Completed
+TXN1027,2026-05-15,Transfer to Alice (Acc: ...3082),Debit,15000,Completed
+TXN1026,2026-05-12,Atm Cash Withdrawal,Debit,10000,Completed
+TXN1025,2026-05-10,Salary Credit - Apex Corp,Credit,120000,Completed
