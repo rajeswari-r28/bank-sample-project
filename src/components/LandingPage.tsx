@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { 
-  ShieldCheck, ArrowRight, ShieldAlert, BadgePercent, Coins, 
-  CreditCard, Sparkles, AlertTriangle, FileText, Download 
+import {
+  ShieldCheck, ArrowRight, ShieldAlert, BadgePercent, Coins,
+  CreditCard, Sparkles, AlertTriangle, FileText, Download
 } from 'lucide-react';
 
 interface LandingPageProps {
@@ -25,8 +25,8 @@ export default function LandingPage({ onOpenLogin, setActiveTab, isLoggedIn }: L
       setScanResult({
         scanned: true,
         genuine: isGenuine,
-        msg: isGenuine 
-          ? '🟢 SAFE PORTAL: This matches our genuine secure login host. Always verify this before typing credentials.' 
+        msg: isGenuine
+          ? '🟢 SAFE PORTAL: This matches our genuine secure login host. Always verify this before typing credentials.'
           : '🔴 PHISHING ALERT: This is a fraudulent website simulation! ApexBank NEVER hosts login pages on .org, .net, or non-SSL HTTP links.'
       });
     }, 1000);
@@ -49,7 +49,7 @@ export default function LandingPage({ onOpenLogin, setActiveTab, isLoggedIn }: L
 
   return (
     <div className="text-left font-sans mt-20">
-      
+
       {/* Hero Section */}
       <section className="relative overflow-hidden pt-16 pb-20 md:pb-28 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Glow ambient backgrounds */}
@@ -61,7 +61,7 @@ export default function LandingPage({ onOpenLogin, setActiveTab, isLoggedIn }: L
           <div className="lg:col-span-7 space-y-6">
             <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-sky-500/10 border border-sky-500/20 text-sky-400 text-xs font-semibold">
               <Sparkles className="h-3.5 w-3.5 text-accent-gold" />
-              <span>Simulated Personal Banking Experience</span>
+              <span>Simulated Personal Banking Experiencesss</span>
             </div>
 
             <h1 className="font-heading text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.1]">
@@ -111,7 +111,7 @@ export default function LandingPage({ onOpenLogin, setActiveTab, isLoggedIn }: L
           <div className="lg:col-span-5 relative">
             <div className="relative mx-auto w-full max-w-sm rounded-3xl p-5 bg-gradient-to-br from-slate-900 via-slate-900 to-sky-950 border border-white/10 shadow-2xl overflow-hidden">
               <div className="absolute top-0 right-0 w-32 h-32 bg-emerald-500/10 rounded-full blur-2xl pointer-events-none"></div>
-              
+
               <div className="flex justify-between items-center mb-6">
                 <span className="text-[9px] font-bold text-sky-400 bg-sky-500/15 px-2 py-0.5 rounded uppercase">APEX PRIME SAVINGS</span>
                 <ShieldCheck className="h-5 w-5 text-emerald-400" />
@@ -260,9 +260,9 @@ export default function LandingPage({ onOpenLogin, setActiveTab, isLoggedIn }: L
               <div className="space-y-2 flex-1 text-left">
                 <h4 className="text-xs font-bold text-white">Terms & Conditions Policy</h4>
                 <p className="text-[10px] text-slate-400 leading-normal">Outlines secure banking usage guidelines, privacy, and dispute policies.</p>
-                <a 
-                  href="/banking_terms_and_rules.pdf" 
-                  download 
+                <a
+                  href="/banking_terms_and_rules.pdf"
+                  download
                   className="inline-flex items-center gap-1 text-[10px] font-bold text-sky-400 hover:text-sky-300"
                 >
                   <Download className="h-3 w-3" /> Download PDF File
@@ -278,9 +278,9 @@ export default function LandingPage({ onOpenLogin, setActiveTab, isLoggedIn }: L
               <div className="space-y-2 flex-1 text-left">
                 <h4 className="text-xs font-bold text-white">Loan Application Form</h4>
                 <p className="text-[10px] text-slate-400 leading-normal">Simulated Word doc form details requested details, income declaration, and signatures.</p>
-                <a 
-                  href="/loan_application_form.docx" 
-                  download 
+                <a
+                  href="/loan_application_form.docx"
+                  download
                   className="inline-flex items-center gap-1 text-[10px] font-bold text-sky-400 hover:text-sky-300"
                 >
                   <Download className="h-3 w-3" /> Download DOCX File
@@ -296,9 +296,9 @@ export default function LandingPage({ onOpenLogin, setActiveTab, isLoggedIn }: L
               <div className="space-y-2 flex-1 text-left">
                 <h4 className="text-xs font-bold text-white">Sample Account Statement</h4>
                 <p className="text-[10px] text-slate-400 leading-normal">A detailed ledger list of recent transactions formatted for spreadsheet analytics.</p>
-                <a 
-                  href="/apexbank_statement.csv" 
-                  download 
+                <a
+                  href="/apexbank_statement.csv"
+                  download
                   className="inline-flex items-center gap-1 text-[10px] font-bold text-sky-400 hover:text-sky-300"
                 >
                   <Download className="h-3 w-3" /> Download CSV File
@@ -313,14 +313,14 @@ export default function LandingPage({ onOpenLogin, setActiveTab, isLoggedIn }: L
       <section id="security-hub" className="bg-slate-900/30 border-t border-slate-900 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-            
+
             {/* Security left explanation */}
             <div className="lg:col-span-6 space-y-6">
               <div className="p-2.5 bg-rose-500/10 border border-rose-500/20 text-rose-400 rounded-xl inline-flex items-center gap-1.5">
                 <ShieldAlert className="h-5 w-5" />
                 <span className="text-xs font-bold uppercase">Apex Safe Banking Program</span>
               </div>
-              
+
               <h2 className="font-heading text-3xl font-bold text-white">Protect Yourself From Online Phishing scams</h2>
               <p className="text-xs text-slate-400 leading-relaxed">
                 Fraudulent callers and malicious links impersonate bank managers to harvest OTPs, PINs, and passwords. Remember: ApexBank or other reputable financial institutions will <strong>NEVER</strong> ask for your secure security codes or login passkeys.
@@ -394,11 +394,10 @@ export default function LandingPage({ onOpenLogin, setActiveTab, isLoggedIn }: L
 
                 {/* Scan Results Output */}
                 {scanResult && (
-                  <div className={`mt-5 p-4 rounded-2xl border text-xs text-left leading-relaxed font-medium animate-in slide-in-from-top-2 duration-200 ${
-                    scanResult.genuine 
-                      ? 'bg-emerald-500/10 border-emerald-500/20 text-emerald-400' 
+                  <div className={`mt-5 p-4 rounded-2xl border text-xs text-left leading-relaxed font-medium animate-in slide-in-from-top-2 duration-200 ${scanResult.genuine
+                      ? 'bg-emerald-500/10 border-emerald-500/20 text-emerald-400'
                       : 'bg-rose-500/10 border-rose-500/20 text-rose-400'
-                  }`}>
+                    }`}>
                     {scanResult.msg}
                   </div>
                 )}
