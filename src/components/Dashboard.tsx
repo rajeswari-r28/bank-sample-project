@@ -340,7 +340,7 @@ export default function Dashboard({ userAccount }: DashboardProps) {
               <div className="glass-card rounded-3xl p-6 shadow-md border border-white/5">
                 <div className="flex justify-between items-center mb-6">
                   <h4 className="text-sm font-bold text-white font-heading">Recent Transactions</h4>
-                  <div className="flex items-center gap-2">
+                  {/* <div className="flex items-center gap-2">
                     <a
                       href="/apexbank_statement.csv"
                       download
@@ -351,7 +351,7 @@ export default function Dashboard({ userAccount }: DashboardProps) {
                     <button className="text-[10px] text-sky-400 hover:text-sky-300 flex items-center gap-1 font-bold bg-sky-500/10 border border-sky-500/20 px-2.5 py-1.5 rounded-lg">
                       <RefreshCw className="h-3.5 w-3.5" /> Refresh
                     </button>
-                  </div>
+                  </div> */}
                 </div>
 
                 <div className="overflow-x-auto">
