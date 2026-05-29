@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { 
   CreditCard, ArrowUpRight, ArrowDownLeft, Shield, 
-  Send, Landmark, RefreshCw, CheckCircle2, AlertTriangle, Download 
+  Send, Landmark, CheckCircle2, AlertTriangle
 } from 'lucide-react';
 
 interface DashboardProps {
