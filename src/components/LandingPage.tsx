@@ -290,7 +290,7 @@ export default function LandingPage({ onOpenLogin, setActiveTab, isLoggedIn }: L
             </div>
 
             {/* Statement CSV */}
-            {/* <div className="glass-card rounded-2xl p-5 border border-white/5 flex items-start gap-4 hover:border-sky-500/25 transition-all">
+            <div className="glass-card rounded-2xl p-5 border border-white/5 flex items-start gap-4 hover:border-sky-500/25 transition-all">
               <div className="p-3 bg-emerald-500/10 text-emerald-400 rounded-xl">
                 <FileText className="h-6 w-6" />
               </div>
@@ -305,7 +305,7 @@ export default function LandingPage({ onOpenLogin, setActiveTab, isLoggedIn }: L
                   <Download className="h-3 w-3" /> Download CSV File
                 </a>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </section>
