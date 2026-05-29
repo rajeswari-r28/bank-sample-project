@@ -62,6 +62,7 @@ export default function LandingPage({ onOpenLogin, setActiveTab, isLoggedIn }: L
             <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-sky-500/10 border border-sky-500/20 text-sky-400 text-xs font-semibold">
               <Sparkles className="h-3.5 w-3.5 text-accent-gold" />
               <span>Simulated Personal Banking Experiencesss</span>
+              <span>Test changes</span>
             </div>
 
             <h1 className="font-heading text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.1]">
